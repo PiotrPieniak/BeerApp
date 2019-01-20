@@ -1,29 +1,16 @@
 # beerapp
 
-## Project setup
+## Installation
 ```
-yarn install
-```
+set up api first - https://github.com/PiotrPieniak/Beers 
 
-### Compiles and hot-reloads for development
-```
+git clone https://github.com/PiotrPieniak/BeerApp.git
+
+cd BeerApp
+
+yarn install
+
+set VUE_APP_API_URL in .env to the url on wchich your laravel Beer api is running (default http://127.0.0.1:8000/api/)
+
 yarn run serve
 ```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
